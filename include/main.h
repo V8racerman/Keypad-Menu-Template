@@ -13,6 +13,6 @@ char *mode_str[] = {"Daily", "Weekday", "Weekend", "Once"};
 char *dow_str[] = {"--", "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"};
 
 States ClockState = ShowClock;
-States PrevState = EditAlarm2;
+States PrevState = PowerLoss;
 
 #endif

@@ -2,8 +2,8 @@
 #define domenu_h
 
 #include <Arduino.h>
-#include "/home/alan/PlatformIO/Projects/Development/ESP32/Menu template/include/clock_constants.h"
-#include "/home/alan/PlatformIO/Projects/Development/ESP32/Menu template/include/external_variables.h"
+#include "/home/alan/PlatformIO/Projects/Templates/Keypad-Menu-Template/include/clock_constants.h"
+#include "/home/alan/PlatformIO/Projects/Templates/Keypad-Menu-Template/include/external_variables.h"
 #include "GenUtils.h"
 
 void Do_PowerLoss(void);

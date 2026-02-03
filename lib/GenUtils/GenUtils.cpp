@@ -1,4 +1,5 @@
-  
+  char *key_str[] = {"NOT PRESSED", "DOWN", "UP", "EDIT", "SELECT" };
+
   #include "GenUtils.h"
   
   void toggleLED(bool ledON = true, byte my_led = 2){
@@ -34,6 +35,12 @@ byte selected_switch = NOTPRESSED;
     selected_switch = EDIT_SW;
     }
   delay(30);
+  if (key != NOTPRESSED) { 
+    Serial.print("GPIO: "); 
+    Serial.print(selected_switch); 
+    Serial.print(" Key: "); 
+    Serial.println(key_str[key]); 
+  }
   while (digitalRead(selected_switch) == LOW) {delay(DebouceTime);}
   
     return (key);
