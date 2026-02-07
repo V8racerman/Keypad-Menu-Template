@@ -8,8 +8,8 @@
 #define GREEN_LED_LEFT   4
 #define DOWN_SW         39
 #define SELECT_SW       36
-#define UP_SW           34
-#define EDIT_SW         35
+#define UP_SW           35
+#define EDIT_SW         34
 #define BUZZER_PIN      13
 #define SQW_PIN         32     
 
